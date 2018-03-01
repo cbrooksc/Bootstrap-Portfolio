@@ -10,45 +10,6 @@ body {
     color: #777;
 }
 
-
-/* ---------NAV START---------- */
-
-.navbar-custom {
-    background-color: #fff;
-}
-
-#logo {
-    /* Box-model */
-    height: 60px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    /* Positioning */
-    margin-left: 120px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    /* Typography */
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    /* Visual */
-    background: #4aaaa5;
-}
-
-.navbar-right-custom {
-    /* Box-model */
-    padding-top: 6px;
-    padding-right: 20px;
-    /* Typography */
-    font-family: Arial;
-    font-weight: lighter;
-}
-
-.navbar-nav>li>a:hover {
-    color: #4aaaa5;
-}
-
-
-/* --------NAV END---------- */
-
 .container {
     width: 100%;
     max-width: 960px;
@@ -69,7 +30,8 @@ p:last-child {
 
 h1,
 h2,
-h3,{
+h3,
+{
     font-family: 'Georiga', 'Times', 'Times New Roman', serif;
     font-weight: 700px;
     color: #4aaaa5;
@@ -115,10 +77,11 @@ h3 {
     text-decoration: none;
 }
 
-nav {
+
+/* nav {
     float: right;
     margin-top: 25px;
-}
+} */
 
 nav a {
     color: #999;
